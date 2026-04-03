@@ -33,8 +33,10 @@ The network is divided into three segments:
 - **adminNet** — IT department traffic, privileged access
 - **corpNet** — Regular corporate users, restricted access
 - **servNet** — Server subnet, protected by firewall policies
+- 
+## PFSense Configuration Screenshot
+https://github.com/MBKLoup/PFsense-Firewall-Rules-and-Network-Configuration/blob/main/Screenshots/PFsense%20Configuration.png
 
----
 
 ## Technologies Used
 
@@ -119,6 +121,14 @@ The second phase involved replacing a broad "allow all" firewall policy with spe
 - Provides audit trail for security analysis
 
 ### Firewall ACL Summary
+WAN ACL
+https://github.com/MBKLoup/PFsense-Firewall-Rules-and-Network-Configuration/blob/main/Screenshots/WAN%20ACL.png
+
+LAN ACL
+https://github.com/MBKLoup/PFsense-Firewall-Rules-and-Network-Configuration/blob/main/Screenshots/LAN%20ACL.png
+
+OPT1 ACL
+https://github.com/MBKLoup/PFsense-Firewall-Rules-and-Network-Configuration/blob/main/Screenshots/OPT1%20ACL.png
 
 | Interface | Protocol | Source | Destination | Port | Action |
 |---|---|---|---|---|---|
@@ -156,6 +166,8 @@ Every rule was tested and verified to work correctly. Here is a summary of resul
 | Policy 4 logging | Both | Logged | Pass |
 
 ---
+## Deny Logs Screenshots
+https://github.com/MBKLoup/PFsense-Firewall-Rules-and-Network-Configuration/blob/main/Screenshots/Deny%20Logs.png
 
 ## Challenges & How I Solved Them
 
